@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            foreach (char letter in "Hello, World!")
+            {
+                Console.Write(letter);
+            }
+            Console.Write('\n');
         }
     }
 }
